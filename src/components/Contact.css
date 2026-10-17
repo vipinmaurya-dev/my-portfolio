@@ -1,0 +1,131 @@
+.contact-section {
+  padding: 10px 0 50px;
+  background: transparent;
+}
+
+.contact-box {
+  position: relative;
+  overflow: hidden;
+  padding: 60px;
+  background: rgba(12, 18, 36, 0.72);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(92, 108, 255, 0.25);
+  border-radius: 30px;
+}
+
+.contact-box::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(rgba(46, 168, 255, 0.25), transparent 70%);
+  pointer-events: none;
+}
+
+.contact-title {
+  position: relative;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.2;
+  color: white;
+  margin: 18px 0;
+}
+
+.contact-text {
+  position: relative;
+  color: #9ca3af;
+  max-width: 520px;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+.contact-links {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: white;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(92, 108, 255, 0.2);
+  padding: 16px 20px;
+  border-radius: 16px;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.contact-links a svg {
+  flex-shrink: 0;
+  color: #00c2ff;
+  font-size: 19px;
+}
+
+.contact-links a:hover {
+  transform: translateX(6px);
+  border-color: #6d5cff;
+  box-shadow: 0 0 20px rgba(109, 92, 255, 0.2);
+}
+
+.contact-links a:focus-visible {
+  outline: 2px solid #00c2ff;
+  outline-offset: 4px;
+}
+
+@media (max-width: 991px) {
+  .contact-section {
+    padding: 10px 0 70px;
+  }
+
+  .contact-box {
+    padding: 40px;
+  }
+
+  .contact-links {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-section {
+    padding: 5px 0 50px;
+  }
+
+  .contact-box {
+    padding: 26px 20px;
+    border-radius: 22px;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+    margin: 16px 0;
+  }
+
+  .contact-text {
+    font-size: 14px;
+  }
+
+  .contact-links {
+    gap: 12px;
+  }
+
+  .contact-links a {
+    padding: 14px 16px;
+    border-radius: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-links a {
+    transition: none;
+  }
+}

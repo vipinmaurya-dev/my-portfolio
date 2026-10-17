@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at 75% 15%,
+      rgba(46, 168, 255, 0.15),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 20% 80%,
+      rgba(138, 92, 255, 0.1),
+      transparent 25%
+    ),
+    linear-gradient(180deg, #020617 0%, #050816 60%, #0b1120 100%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
