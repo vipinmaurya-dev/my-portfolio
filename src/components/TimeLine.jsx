@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import "./Timeline.css";
+import "./TimeLine.css";
 
 function Timeline() {
   const timeline = [
