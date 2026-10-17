@@ -1,16 +1,50 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website, where I've shared a little about myself, the skills I work with, and the projects I've built.
 
-Currently, two official plugins are available:
+## About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I'm a web developer working with React, JavaScript, Bootstrap, and other web technologies. I built this portfolio to showcase my work and make it easier for people to learn about my projects.
 
-## React Compiler
+## What's Inside
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- A little introduction about me
+- My technical skills
+- Projects I've worked on
+- My resume and contact details
+- Links to my GitHub and LinkedIn profiles
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- React-Bootstrap
+- CSS
+- Vite
+
+## Live Website
+
+Check out my portfolio: https://vipinkumarmaurya.vercel.app/
+
+## Run on Your Computer
+
+1. Clone the repository:
+
+   `git clone https://github.com/vipinmaurya-dev/my-portfolio.git`
+
+2. Open the project folder:
+
+   `cd my-portfolio`
+
+3. Install the packages:
+
+   `npm install`
+
+4. Start the website:
+
+   `npm run dev`
+
+## Connect With Me
+
+- GitHub: https://github.com/vipinmaurya-dev
+- LinkedIn: https://www.linkedin.com/in/vipinmaurya-dev/
