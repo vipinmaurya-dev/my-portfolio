@@ -13,6 +13,7 @@ function Projects() {
       tech: "HTML5 • CSS3 • JavaScript • PHP • MySQL • Bootstrap",
       image: roomfynder,
       link: "http://roomfynder.kesug.com/",
+      gitLink: "https://github.com/vipinmaurya-dev/RoomFynder",
     },
     {
       title: "FreshKart",
@@ -26,6 +27,7 @@ function Projects() {
       tech: "React.js • JavaScript • HTML5 • CSS3 • Weather API",
       image: weather,
       link: "https://weather-forecast-alpha-seven.vercel.app/",
+      gitLink: "https://github.com/vipinmaurya-dev/Weather-Forecast",
     },
   ];
   return (
@@ -64,7 +66,7 @@ function Projects() {
                       <Button
                         className="github-btn"
                         as="a"
-                        href="YOUR_GITHUB_REPOSITORY_URL"
+                        href={project.gitLink}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
