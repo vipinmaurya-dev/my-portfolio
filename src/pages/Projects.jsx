@@ -12,6 +12,7 @@ function Projects() {
       desc: "RoomFynder is a room-finding platform built using PHP, MySQL, HTML, CSS, and JavaScript. It helps users find suitable rooms through room listings, search functionality, and detailed property information.",
       tech: "HTML5 • CSS3 • JavaScript • PHP • MySQL • Bootstrap",
       image: roomfynder,
+      link: "http://roomfynder.kesug.com/",
     },
     {
       title: "FreshKart",
@@ -24,6 +25,7 @@ function Projects() {
       desc: "Weather Forecast is a responsive web application built using React.js that provides real-time weather updates through API integration. Users can search for cities and view temperature, humidity, wind speed, and a 7-day weather forecast.",
       tech: "React.js • JavaScript • HTML5 • CSS3 • Weather API",
       image: weather,
+      link: "https://vipinkumarmaurya.vercel.app/",
     },
   ];
   return (
@@ -52,7 +54,7 @@ function Projects() {
                       <Button
                         className="live-btn"
                         as="a"
-                        href="http://www.roomfynder.kesug.com/"
+                        href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
