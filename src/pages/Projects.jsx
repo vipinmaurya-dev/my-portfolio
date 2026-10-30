@@ -25,7 +25,7 @@ function Projects() {
       desc: "Weather Forecast is a responsive web application built using React.js that provides real-time weather updates through API integration. Users can search for cities and view temperature, humidity, wind speed, and a 7-day weather forecast.",
       tech: "React.js • JavaScript • HTML5 • CSS3 • Weather API",
       image: weather,
-      link: "https://vipinkumarmaurya.vercel.app/",
+      link: "https://weather-forecast-alpha-seven.vercel.app/",
     },
   ];
   return (
